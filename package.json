@@ -1,31 +1,33 @@
 {
-  "name": "starter-discord-bot",
+  "name": "tts_voice",
   "version": "1.0.0",
-  "description": "",
+  "description": "TTS Voice when user joins",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js",
-    "start":"node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "Lee",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "discord-tts": "^1.2.0",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "ffmpeg-static": "^4.2.7",
+    "google-tts-api": "^2.0.2",
+    "mongoose": "^5.11.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/korostelevm/starter-discord-bot.git"
+    "url": "git+https://github.com/Dibitybopty/voice-app.git"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "voice"
+  ],
   "bugs": {
-    "url": "https://github.com/korostelevm/starter-discord-bot/issues"
+    "url": "https://github.com/Dibitybopty/voice-app/issues"
   },
-  "homepage": "https://github.com/korostelevm/starter-discord-bot#readme",
-  "dependencies": {
-    "axios": "^0.27.2",
-    "body-parser": "^1.20.0",
-    "discord-interactions": "^3.2.0",
-    "dotenv": "^16.0.2",
-    "express": "^4.18.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.19"
-  }
+  "homepage": "https://github.com/Dibitybopty/voice-app#readme"
 }

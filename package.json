@@ -1,5 +1,5 @@
 {
-  "name": "tts_voice",
+  "name": "starter-discord-bot",
   "version": "1.0.0",
   "description": "TTS Voice when user joins",
   "main": "index.js",
